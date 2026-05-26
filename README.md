@@ -38,6 +38,20 @@ bash <(curl -H 'DNT: 1' -H 'Sec-GPC: 1' -fsSL https://github.com/NanashiTheNamel
 bash <(curl -H 'DNT: 1' -H 'Sec-GPC: 1' -fsSL https://github.com/NanashiTheNameless/Zorin-OS-Pro/raw/refs/heads/main/zorin.sh) -U -X
 ```
 
+## To Downgrade The Pro Changes
+
+This restores the standard Zorin package sources and removes the Pro-specific packages installed by this tool. It does not delete installed keys or optional extra packages.
+
+```sh
+bash <(curl -H 'DNT: 1' -H 'Sec-GPC: 1' -fsSL https://github.com/NanashiTheNameless/Zorin-OS-Pro/raw/refs/heads/main/downgrade.sh)
+```
+
+To preview the downgrade without making any changes, including short delays to simulate the real script timing:
+
+```sh
+bash <(curl -H 'DNT: 1' -H 'Sec-GPC: 1' -fsSL https://github.com/NanashiTheNameless/Zorin-OS-Pro/raw/refs/heads/main/downgrade.sh) -D
+```
+
 ## Examples
 
 (example images are taken of a Virtualbox image made from a core iso as it is easier to perform debugging of a took like this in a VM)

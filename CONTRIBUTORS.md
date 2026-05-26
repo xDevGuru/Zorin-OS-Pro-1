@@ -6,6 +6,8 @@
 
 - kauancvlcnt ([@kauancvlcnt](<https://github.com/kauancvlcnt>)) For The Original Code And The Idea.
 
+- mustikin ([@mustikin](<https://github.com/mustikin>)) For Opening [PR #59](<https://github.com/NanashiTheNameless/Zorin-OS-Pro/pull/59>), Which Prompted The Downgrade Script To Be Added Properly.
+
 - NanashiTheNameless ([@NanashiTheNameless](<https://github.com/NanashiTheNameless>)) (This Fork)
 
 - shipdocs ([@shipdocs](<https://github.com/shipdocs>)) For Adding Automatic Version Detection And More Error Messages.
